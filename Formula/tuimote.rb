@@ -1,7 +1,7 @@
 class Tuimote < Formula
   desc "Remote control for Claude Code and other agentic TUI apps"
   homepage "https://tuimote.org"
-  version "1.0.1"
+  version "1.0.2"
   license "AGPL-3.0-only"
 
   depends_on "tmux"
@@ -9,19 +9,19 @@ class Tuimote < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/soundworker-com/tuimote/releases/download/v1.0.1/tuimote-1.0.1-aarch64-apple-darwin.tar.gz"
-      sha256 "76cbd5155699ee6ff6db79cbdb86b634f34027cfc777f5c4520f0573141a7cdb"
+      url "https://github.com/soundworker-com/tuimote/releases/download/v1.0.2/tuimote-1.0.2-aarch64-apple-darwin.tar.gz"
+      sha256 "2a050b3c8144236458542b73d8cee49009357db06e06ecfde384b2bb2cb3e270"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/soundworker-com/tuimote/releases/download/v1.0.1/tuimote-1.0.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f05c5bdd320c411465682bbb9084555607108f739cc810349a013bf5cbdc428a"
+      url "https://github.com/soundworker-com/tuimote/releases/download/v1.0.2/tuimote-1.0.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e49ff343cd391d0d884548b18bb223ad973b0b1effc6acdf21113dee902d33b3"
     end
     on_intel do
-      url "https://github.com/soundworker-com/tuimote/releases/download/v1.0.1/tuimote-1.0.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "a4d8d0cc98dbb6efa1c4a34d71b77c3abc3ee130c1e4b6feb7ec519ccd6b7281"
+      url "https://github.com/soundworker-com/tuimote/releases/download/v1.0.2/tuimote-1.0.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "e2ef84d0ff3edf89447d0e17de221ee24753d82d9700133b222e1348750eeef3"
     end
   end
 
